@@ -15,3 +15,5 @@ for target in target_movies:
 #(3) 매트릭스 영화의 평점을 0으로 만들기
 db.movies.update_one({'title':'매트릭스'},{'$set':{'star':'0'}})
 #DB의 STAR 값들이 문자열로 삽입되었기에 0도 문자열로 삽입해준다.
+
+#bye
