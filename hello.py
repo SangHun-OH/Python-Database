@@ -33,6 +33,7 @@ for tr in trs:
             'star':star
         }
         
+        
 
         #Collection 정보를 movies 로 할당해줌
         db.movies.insert_one(doc)
