@@ -17,6 +17,7 @@ data = requests.get('https://movie.naver.com/movie/sdb/rank/rmovie.nhn?sel=pnt&d
 # 이제 코딩을 통해 필요한 부분을 추출하면 된다.
 soup = BeautifulSoup(data.text, 'html.parser')
 
+
 trs = soup.select('#old_content > table > tbody > tr')
 
 for tr in trs:
