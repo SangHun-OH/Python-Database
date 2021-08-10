@@ -47,6 +47,7 @@ for tr in trs:
     
         
         
+      
         
 
         #Collection 정보를 movies 로 할당해줌
