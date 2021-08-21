@@ -24,6 +24,7 @@ for tr in trs:
  
  
  
+ 
     
     a_tag = tr.select_one('td.title > div > a')
     if a_tag is not None:
