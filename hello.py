@@ -18,6 +18,7 @@ data = requests.get('https://movie.naver.com/movie/sdb/rank/rmovie.nhn?sel=pnt&d
 soup = BeautifulSoup(data.text, 'html.parser')
  
 
+ 
 trs = soup.select('#old_content > table > tbody > tr')
 
 for tr in trs:
