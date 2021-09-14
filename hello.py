@@ -30,6 +30,7 @@ soup = BeautifulSoup(data.text, 'html.parser')
  
  
  
+ 
 trs = soup.select('#old_content > table > tbody > tr')
 
 for tr in trs:
